@@ -16,8 +16,8 @@ function promoUpdate() {
 
 //set input value
 function setValue(inputId, value) {
-    const memoryInput = document.getElementById(inputId);
-    memoryInput.innerText = value;
+    const productInput = document.getElementById(inputId);
+    productInput.innerText = value;
 
     updateTotalPrice();
 }
